@@ -1,9 +1,3 @@
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/guillaumebriday)
-[![Docker Automated build](https://img.shields.io/docker/automated/guillaumebriday/traefik-custom-error-pages.svg)](https://hub.docker.com/r/guillaumebriday/traefik-custom-error-pages/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/guillaumebriday/traefik-custom-error-pages.svg)](https://hub.docker.com/r/guillaumebriday/traefik-custom-error-pages/)
-[![Docker Stars](https://img.shields.io/docker/stars/guillaumebriday/traefik-custom-error-pages.svg)](https://hub.docker.com/r/guillaumebriday/traefik-custom-error-pages/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/64de9cea-fa16-4f76-b5b8-a1abb5eb4e2f/deploy-status)](https://app.netlify.com/sites/traefik-custom-error-pages/deploys)
-
 # Custom error pages for Traefik
 
 A bunch of custom error pages for Traefik built with [Jekyll](https://jekyllrb.com/).
@@ -26,12 +20,6 @@ Build the site on the preview server :
 $ jekyll serve
 $ open http://127.0.0.1:4000/
 ```
-
-## Production
-
-You can use this project in production with Netlify:
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/guillaumebriday/traefik-custom-error-pages)
 
 ## How to use with Traefik and Docker
 
