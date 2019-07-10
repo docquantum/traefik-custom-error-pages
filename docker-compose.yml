@@ -5,8 +5,6 @@ services:
     build: ./
     container_name: error-pages
     restart: unless-stopped
-    expose:
-      - ""
     networks:
       - web
 
