@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  error-pages:
+    build: ./
+    container_name: error-pages
+    restart: unless-stopped
+    expose:
+      - ""
+    networks:
+      - web
+
+networks:
+  web:
+    external: true
