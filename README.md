@@ -2,6 +2,10 @@
 
 A bunch of custom error pages for Traefik built with [Jekyll](https://jekyllrb.com/).
 
+This is a fork of [guillaumebriday's project](https://github.com/guillaumebriday/traefik-custom-error-pages) with my own template and backgrounds.
+
+This also comes with a docker-compose file.
+
 ## Installation
 
 ```bash
@@ -23,17 +27,17 @@ $ open http://127.0.0.1:4000/
 
 ## How to use with Traefik and Docker
 
-Labels are already define in the image to work with Traefik.
+Labels are already defined in the image to work with Traefik.
 
-To use it in production just run the container :
+To use it in production use the included compose file:
 
 ```bash
-$ docker run -d --restart always guillaumebriday/traefik-custom-error-pages
+$ docker-compose up --build -d
 ```
 
 ## Credits
 
-I used the [Laravel](https://laravel.com/) default HTTP error pages.
+Credit to guillaumebriday for his [code](https://github.com/guillaumebriday/traefik-custom-error-pages).
 
 ## Contributing
 
